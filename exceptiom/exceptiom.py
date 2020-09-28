@@ -1,4 +1,4 @@
-from jokes_en import jokes
+from exceptiom.jokes_en import jokes
 import random
 
 
