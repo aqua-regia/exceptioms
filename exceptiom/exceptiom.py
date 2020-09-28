@@ -2,7 +2,7 @@ from jokes_en import jokes
 import random
 
 
-class Exceptioms(Exception):
+class Exceptiom(Exception):
     def __init__(self, *args, **kwargs):
         length_jokes = len(jokes)
         joke_to_pick = random.randint(0, length_jokes-1)
