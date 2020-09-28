@@ -42,4 +42,16 @@ To add jokes, just add joke in exceptiom/jokes_en and raise a PR.
 For any other features raise a PR
 
 
+For Developers
+==============
+
+* Version bump
+    ```bumpversion --current-version 1.2.0 minor setup.py```
+    
+* Publishing to PyPi
+    
+    1.`python setup.py sdist`
+    
+    2.`twine upload dist/* --verbose`
+
 
